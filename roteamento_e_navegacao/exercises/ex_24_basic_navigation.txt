@@ -1,0 +1,5 @@
+Ex 24: Navegação básica
+
+● Para os exercícios desta seção utilize a lib “react-router-dom”;
+● Crie três páginas;
+● Faça a configuração de roteamento para elas;
