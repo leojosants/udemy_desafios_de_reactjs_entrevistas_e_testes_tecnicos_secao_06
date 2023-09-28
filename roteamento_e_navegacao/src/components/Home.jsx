@@ -5,6 +5,7 @@ const Home = () => {
         <div>
             <h2>Início</h2>
 
+            {/* 3 - navigation links */}
             <ul>
                 <li>
                     <Link to={'/usuarios/1'}>Usuário 1</Link>

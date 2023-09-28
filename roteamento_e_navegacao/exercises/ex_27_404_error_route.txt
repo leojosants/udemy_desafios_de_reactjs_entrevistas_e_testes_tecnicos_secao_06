@@ -1,0 +1,5 @@
+Ex 27: Rota de Erro 404
+
+● Crie uma nova página;
+● Ela servirá como uma rota 404;
+● Através do React Router, redirecione todos os acessos para URLS que não existam a este componente;

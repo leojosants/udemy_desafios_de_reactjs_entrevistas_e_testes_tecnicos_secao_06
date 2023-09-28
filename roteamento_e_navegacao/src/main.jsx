@@ -12,11 +12,15 @@ import About from './components/About';
 // 2 - parameterezid route
 import User from './components/User.jsx';
 
+// 4 - Error route
+import NotFound from './components/NotFound.jsx';
+
 // page configuration
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <NotFound />,
     children: [
       {
         path: '/',
