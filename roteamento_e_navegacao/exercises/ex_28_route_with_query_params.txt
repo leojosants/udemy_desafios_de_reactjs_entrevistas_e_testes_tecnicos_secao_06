@@ -1,0 +1,7 @@
+Ex 28: Rota com query params
+
+● Crie uma nova página que pode consultar os query params (parâmetros de URL);
+● Ela deve exibir o resultado dos parâmetros;
+● Crie um componente de busca, com um input;
+● O conteúdo digitado deve ser enviado para a URL com query params;
+● Este exercício simula um formulário de busca;

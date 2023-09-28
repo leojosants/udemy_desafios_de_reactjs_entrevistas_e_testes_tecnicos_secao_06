@@ -15,6 +15,9 @@ import User from './components/User.jsx';
 // 4 - Error route
 import NotFound from './components/NotFound.jsx';
 
+// 5 - search / query params
+import Search from './components/Search.jsx';
+
 // page configuration
 const router = createBrowserRouter([
   {
@@ -37,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: '/usuarios/:userId',
         element: <User />
+      },
+      {
+        path: '/search',
+        element: <Search />
       },
     ],
   },
