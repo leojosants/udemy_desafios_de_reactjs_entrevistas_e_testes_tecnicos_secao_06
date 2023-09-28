@@ -1,0 +1,6 @@
+Ex 29: Rota protegida
+
+● Crie uma funcionalidade básica de autenticação;
+● Onde uma das rotas deve ser protegida;
+● Caso o usuário não esteja autenticado, você deve redirecionar ele para home;
+● Para simplificar: controle a autenticação com uma variável do tipo boolean, true (autenticado) e false (não autenticado);
