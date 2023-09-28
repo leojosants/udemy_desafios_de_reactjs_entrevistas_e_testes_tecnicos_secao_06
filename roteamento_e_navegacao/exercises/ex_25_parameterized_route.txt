@@ -1,0 +1,5 @@
+Ex 25: Rota parametrizada
+
+● Crie uma nova rota;
+● Esta deve aceitar um parâmetro pela URL;
+● Exiba o valor do parâmetro no componente;

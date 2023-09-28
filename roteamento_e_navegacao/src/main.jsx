@@ -9,7 +9,10 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 
-// 2 - page configuration
+// 2 - parameterezid route
+import User from './components/User.jsx';
+
+// page configuration
 const router = createBrowserRouter([
   {
     path: '/',
@@ -26,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/sobre',
         element: <About />
+      },
+      {
+        path: '/usuarios/:userId',
+        element: <User />
       },
     ],
   },
